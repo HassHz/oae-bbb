@@ -28,8 +28,6 @@ module.exports = {
             'recordingDefault': new Fields.Bool('Recording Default', 'Recording capability enabled by default in new meetings', false),
             'allModerator': new Fields.Bool('All Moderator', 'Enable all moderator capability', false),
             'allModeratorDefault': new Fields.Bool('All Moderator Default', 'All moderator capability enabled by default in new meetings', false),
-            'waitModerator': new Fields.Bool('Wait Moderator', 'Enable wait moderator capability', false),
-            'waitModeratorDefault': new Fields.Bool('Wait Moderator Default', 'Wait moderator capability enabled by default in new meetings', false)
         }
     },
     'visibility': {
